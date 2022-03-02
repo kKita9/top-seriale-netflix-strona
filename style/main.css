@@ -55,9 +55,10 @@ section {
     position: relative;
 }
 
-a {
+h3 a {
     color: #fff;
     text-decoration: none;
+    font-family: Georgia, Times, serif;
 }
 
 .numer {
