@@ -2,10 +2,15 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: Verdana, Tahoma, sans-serif;
 }
 
 body {
     background-color: #110f0f;
+}
+
+h1, h2, h3 {
+    font-family: Georgia, Times, serif;
 }
 
 .navbar {
