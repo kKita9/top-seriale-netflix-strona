@@ -65,7 +65,7 @@ h3 a {
 .numer {
     display: inline-block;
     font-size: 7em;
-    transform: translateY(-70%);
+    transform: translateY(-75%);
 }
 
 section img {
@@ -88,3 +88,11 @@ section img {
     padding-right: 20px;
 }
 
+.content h4 {
+    display: inline-block;
+    margin: 8px 0 0 0;
+}
+
+.content h4 + p {
+    display: inline-block;
+}
