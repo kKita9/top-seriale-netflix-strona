@@ -12,7 +12,7 @@ body {
     width: 100%;
     min-height: 30%;
     text-align: center;
-    background-image: linear-gradient(rgba(4,9,30,0.8),rgba(4,9,30,0.8)), url(../images/banner.jpg);
+    background-image: linear-gradient(rgba(4,9,30,0.7),rgba(4,9,30,0.7)), url(../images/banner.jpg);
     padding: 10px;
 }
 
@@ -29,12 +29,55 @@ body {
 }
 
 .container h2 {
-    margin-top: 30px;
+    margin: 30px 5px 0;
     text-align: center;
     color: #fff;
     font-size: 2.5em;
 }
 
 .container span {
-    color: #E50914;
+    color: #e50914;
 }
+
+section {
+    color: #fff;
+    width: 90%;
+    height: 330px;
+    margin: 40px auto 0;
+    border: 3px solid #e50914;
+    padding: 20px;
+    border-radius: 50px;
+    position: relative;
+}
+
+a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.numer {
+    display: inline-block;
+    font-size: 10em;
+    transform: translateY(-50%);
+}
+
+section img {
+    padding: 0 20px;
+    border-left: 3px solid #e50914;
+}
+
+.content {
+    display: inline-block;
+    position: absolute;
+}
+
+.content h3 {
+    font-size: 2.3em;
+    margin-bottom: 10px;     
+}
+
+.content p {
+    font-size: 1.5em;
+    padding-right: 20px;
+}
+
