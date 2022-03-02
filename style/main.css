@@ -4,6 +4,10 @@
     box-sizing: border-box;
 }
 
+body {
+    background-color: #110f0f;
+}
+
 .navbar {
     width: 100%;
     min-height: 30%;
@@ -22,4 +26,15 @@
 .navbar img {
     width: 15em;
     margin-bottom: 20px;
+}
+
+.container h2 {
+    margin-top: 30px;
+    text-align: center;
+    color: #fff;
+    font-size: 2.5em;
+}
+
+.container span {
+    color: #E50914;
 }
