@@ -71,6 +71,7 @@ h3 a {
 section img {
     padding: 0 20px;
     border-left: 3px solid #e50914;
+    height: 285px;
 }
 
 .content {
