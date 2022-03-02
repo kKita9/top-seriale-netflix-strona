@@ -3,3 +3,23 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+.navbar {
+    width: 100%;
+    min-height: 30%;
+    text-align: center;
+    background-image: linear-gradient(rgba(4,9,30,0.8),rgba(4,9,30,0.8)), url(../images/banner.jpg);
+    padding: 10px;
+}
+
+.navbar h1 {
+    font-size:4em;
+    margin: 20px 0;
+    letter-spacing: 5px;
+    color: #fff;
+}
+
+.navbar img {
+    width: 15em;
+    margin-bottom: 20px;
+}
